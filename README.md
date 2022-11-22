@@ -31,7 +31,7 @@ Image to be deployed. It should either exist on server, or it has to be public, 
 ## Usage
 
 ```
-uses: floms/action-caprover@v1
+uses: rvsubagan/rover-deploy@v1
 with:
   host: 'https://captain.your-domain.com'
   password: '${{ secrets.CAPROVER_PASSWORD }}'
