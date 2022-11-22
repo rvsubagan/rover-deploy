@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:14
 
 RUN yarn global add caprover --prefix /usr/local
 
